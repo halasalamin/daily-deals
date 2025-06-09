@@ -1,0 +1,23 @@
+# Node modules
+node_modules/
+package-lock.json
+uploads/*
+!uploads/.gitkeep
+
+# Logs
+logs/
+*.log
+
+# Environment variables
+.env
+
+# Build files
+dist/
+build/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+__pycache__/
+*.pyc
