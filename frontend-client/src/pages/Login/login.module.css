@@ -1,0 +1,182 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  height: 100vh;
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-size: "";
+  font-family: Arial, sans-serif;
+  /* padding: 20px; */
+  background-color: var(--primary-color);
+  opacity: 1;
+  transform: none;
+  align-items: center;
+  justify-content: center;
+}
+
+.welcomelogo {
+  /* width: 360px; */
+  /* border-radius: 8px;
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2); */
+  width: 300px;
+}
+
+
+.logoContainer {
+  position: relative;
+  height: 533px;
+  display: flex;
+  align-items: end;
+  margin-right: 60px;
+  opacity: 1
+}
+
+.logo {
+  position: absolute;
+  z-index: 0;
+  transform: scale(0.3);
+  left: -365px;
+  top: -354px;
+}
+
+
+.formContainer {
+  background: white;
+  width: 370px;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(0px);
+  z-index: 2;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 22px;
+  margin-bottom: 24px;
+}
+
+.inputField {
+  width: 100%;
+  margin-top: 8px;
+}
+
+.icon {
+  /* position: absolute; */
+  /* right: 12px; */
+  /* top: 50%; */
+  /* transform: translateY(-50%); */
+  height: 35px;
+}
+
+.terms {
+  font-size: 14px;
+  margin: 10px 0;
+  color: #555;
+}
+
+.terms a {
+  color: #448ef7;
+  text-decoration: none;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+  margin-top: 4px;
+}
+
+.socialText {
+  margin: 20px 0 10px;
+  text-align: center;
+  font-size: 14px;
+  color: #666;
+}
+
+.socialIcons {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+
+.socialIcons button {
+  background: #f3f3f3;
+  border: none;
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+.socialIcons button:hover {
+  background: #e2e2e2;
+}
+
+.sideContainer {
+  background: white;
+  color: black;
+  padding: 3rem 2rem;
+  border-radius: 8px;
+  text-align: center;
+  margin-left: 2rem;
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  opacity: 1;
+  margin: 0;
+  width: 300px;
+  height: 130px;
+  border-radius: 8px;
+  min-width: 370px
+}
+
+.sideContainer h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.sideContainer p {
+  color: #cbd5e0;
+  margin-bottom: 2rem;
+}
+
+.inputField {
+  width: 70%;
+}
+
+.googleButton {
+  height: 33px;
+  width: 100px !important;
+}
+
+.facebookButton {
+  height: 33px;
+  width: 126px !important;
+}
+.facebookImage {
+  height: 23px;
+}
+
+.signUpButton {
+  height: 33px;
+  padding-right: 5px !important;
+  padding-left: 5px !important;
+  border: none !important;
+  width: 80px !important;
+}
+
+.thirdPartyLoginContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 370px;
+  margin: auto;
+  margin-top: 40px;
+  align-items: center;
+}

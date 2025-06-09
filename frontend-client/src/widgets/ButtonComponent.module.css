@@ -1,0 +1,59 @@
+.button {
+    padding: 10px 15px;
+    font-size: 16px !important;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    height: 40px;
+    width: 110px;
+  }
+
+  .contained {
+    border: none;
+    background:  var(--primary-color) !important;
+    color: white !important;
+  }
+
+  .iconWrapper {
+    display: flex;
+    margin-right: 8px;
+    margin-top: -3px;
+  }
+
+  .capitalize {
+    text-transform: capitalize !important;
+  }
+
+  .primary-button {
+    background-color: #007bff;
+    color: white;
+  }
+
+  .primary-button:hover {
+    background-color: #0056b3;
+  }
+
+  .danger-button {
+    background-color: #dc3545;
+    color: white;
+  }
+
+  .danger-button:hover {
+    background-color: #b02a37;
+  }
+
+  .button:disabled {
+    background-color: gray;
+    cursor: not-allowed;
+  }
+
+  .outlined {
+      background-color: #fff !important;
+      padding: 10px 15px;
+      font-weight: 600 !important;
+      border: none;
+      border-radius: 5px;
+      color: var(--primary-color) !important;
+      border: 1px solid var(--primary-color) !important;
+    }

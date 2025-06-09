@@ -1,0 +1,43 @@
+.fieldContainer {
+  display: flex;
+  align-items: center;
+  border-radius: 4px;
+  padding: 4px 8px;
+  box-shadow: rgb(202, 211, 226) 0px 0px 0px 1px inset;
+  background-color: rgb(255, 255, 255);
+  border: none;
+  width: 370px;
+  max-width: 370px;
+  box-sizing: border-box;
+  height: 42px;
+  transition: border-color 0.3s;
+  margin-bottom: 30px;
+}
+
+.inputRoot {
+  border: none;
+  outline: none;
+}
+
+.inputElement {
+  font-size: 16px;
+  border-bottom: none !important;
+  background-color: transparent !important;
+  box-shadow: 0 0 0 1000px white inset !important;
+  -webkit-text-fill-color: #000 !important;
+  caret-color: #000;
+}
+
+.inputElement:-webkit-autofill {
+  box-shadow: 0 0 0 1000px white inset !important;
+  -webkit-text-fill-color: #000 !important;
+  caret-color: #000;
+}
+
+.helperText {
+  position: absolute;
+  bottom: -16px;
+  left: 8px;
+  font-size: 12px;
+  color: #f44336;
+}

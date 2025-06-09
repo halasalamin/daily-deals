@@ -1,0 +1,75 @@
+/* ShippingCheckoutPage.module.css */
+.container {
+  height: 650px;
+    display: flex;
+    padding: 2rem;
+    background-color: #f7f7f7;
+    font-family: Arial, sans-serif;
+  }
+
+  .formSection {
+    margin-left: 15px;
+    margin-right: 24px;
+    width: 65%;
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    height: 568px;
+    max-width: 500px;
+  }
+
+  .orderSummary {
+    margin-right: 15px;
+    width: 400px;
+    background-color: #fff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    height: 400px;
+  }
+
+  h2 {
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+  }
+
+  p {
+    margin: 0.5rem 0;
+  }
+
+  label {
+    /* display: block;
+    margin-top: 1rem;
+    margin-bottom: 0.3rem;
+    font-weight: 600; */
+  }
+
+  input,
+  select {
+    /* width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px; */
+  }
+
+  .checkboxContainer {
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+  }
+
+  .checkboxContainer input {
+    /* margin-right: 0.5rem; */
+  }
+
+  .saveButton,
+  .placeOrderButton {
+    background-color: #167f81;
+    color: white;
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 1rem;
+  }

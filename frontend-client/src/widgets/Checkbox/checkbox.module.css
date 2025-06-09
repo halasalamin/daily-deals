@@ -1,0 +1,26 @@
+.root {
+  padding: 8px !important;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 16px;
+  height: 16px;
+  background-color: #fff;
+  border: 2px solid #167f81;
+  border-radius: 4px;
+  font-size: 16px;
+  color: transparent;
+  transition: background-color 0.2s;
+}
+
+.checked {
+  color: #167f81;
+  font-size: 14px;
+}
+
+.label {
+  margin: 0 !important;
+}

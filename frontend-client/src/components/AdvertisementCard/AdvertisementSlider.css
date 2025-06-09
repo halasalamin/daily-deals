@@ -1,0 +1,79 @@
+/* .advertisement-slider {
+  display: flex;
+  position: relative;
+  width: 600px; /* same width as your ad image */
+  /* margin: 0 auto;
+}
+
+.advertisement-slider button.slider-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #C0C0C0;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  color: white;
+  font-size: 2rem;
+  z-index: 10;
+} */
+
+ .advertisement-slider button.slider-arrow.left {
+  left: 5px; /* distance from left edge */
+   padding: 2px;
+  background: rgb(224 224 224 / 20%);
+} 
+
+.advertisement-slider button.slider-arrow.right {
+  right: 5px; /* distance from right edge */
+ padding: 2px;
+  background: rgb(224 224 224 / 20%);
+} 
+
+.advertisement-slider {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.slider-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  z-index: 10;
+  color: #333;
+}
+
+.slider-arrow.left {
+  left: 10px;
+}
+
+.slider-arrow.right {
+  right: 10px;
+}
+
+.ad-container {
+  transition: opacity 0.3s ease-in-out;
+  opacity: 1;
+  width: 100%;
+}
+
+.ad-container.fade {
+  opacity: 0;
+}
+
+.timer {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 18px;
+  color: #333;
+  font-weight: bold;
+}

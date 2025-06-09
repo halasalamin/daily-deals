@@ -1,0 +1,128 @@
+
+.cartPage{
+  background-color: white;
+  width: 100%;
+  height: 100%;
+}
+
+
+.cartContainer {
+  display: flex;
+  flex-flow: column;
+  max-width: 850px;
+}
+
+/* Cart Item */
+.cartItem {
+  justify-self: center;
+  align-self: center;
+  display: flex;
+  align-items: center;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  margin-bottom: 15px;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+  background-color: #fff;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 8px 10px 8px 2px;
+}
+
+.cartDetails {
+  margin-left: 16px;
+}
+
+.cartItem:hover {
+  background-color: #eaf4fc;
+  transform: translateY(-5px);
+}
+
+/* Cart Item Image */
+.cartImage {
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.cartItemLine {
+  margin-left: 3px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.quantityControls {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+  gap: 10px;
+
+}
+
+.quantityControls span {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin: 0 15px;
+}
+
+/* Cart Actions buy now and clear all*/
+.cartActions {
+  justify-self: center;
+  align-self: center;
+  display: flex;
+  justify-content: space-between;
+  width: 820px;
+  align-items: center;
+  margin-top: 10px;
+}
+
+/* total price */
+.cartActions h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #167f81;
+}
+
+.trashIcon {
+  color: darkgray;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.trashIcon:hover {
+  color: red;
+  animation: shake 0.4s ease-in-out;
+}
+
+@keyframes shake {
+  0% { transform: translateX(0); }
+  25% { transform: translateX(-2px); }
+  50% { transform: translateX(2px); }
+  75% { transform: translateX(-2px); }
+  100% { transform: translateX(0); }
+}
+
+
+ .selectAllLabel {
+  justify-self: center;
+  align-self: center;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 0.5rem 1rem;
+  margin-bottom: 1rem;
+  background-color: white;
+  border-radius: 8px;
+  width: fit-content;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.topHolder {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}

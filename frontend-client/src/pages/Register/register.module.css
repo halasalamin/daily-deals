@@ -1,0 +1,131 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  padding-top: 16px;
+  height: 100vh;
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-size: "";
+  font-family: Arial, sans-serif;
+  background-color: var(--primary-color);
+  opacity: 1;
+  transform: none;
+  align-items: center;
+  justify-content: center;
+}
+
+.logoContainer {
+  position: relative;
+  height: 533px;
+  display: flex;
+  align-items: end;
+  margin-right: 60px;
+  opacity: 1
+}
+
+.logo {
+  position: absolute;
+  z-index: 0;
+  transform: scale(0.3);
+  left: -365px;
+  top: -354px;
+}
+
+
+.formContainer {
+  background: white;
+  width: 370px;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(0px);
+  z-index: 2;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 22px;
+  margin-bottom: 24px;
+}
+
+.icon {
+  height: 35px;
+}
+
+.terms {
+  color: #555;
+  height: 30px;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.terms a {
+  color: #448ef7;
+  text-decoration: none;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+  margin-top: 4px;
+}
+
+.socialText {
+  margin: 20px 0 10px;
+  text-align: center;
+  font-size: 14px;
+  color: #666;
+}
+
+.socialIcons {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+
+.socialIcons button {
+  background: #f3f3f3;
+  border: none;
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+.socialIcons button:hover {
+  background: #e2e2e2;
+}
+
+.welcomelogo {
+  width: 300px;
+}
+
+.inputField {
+  width: 70%;
+}
+
+.facebookImage {
+  height: 23px;
+}
+
+.thirdPartyLoginContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 370px;
+  margin: auto;
+  margin-top: 12px;
+  align-items: center;
+}
+
+.signUpButton {
+  height: 33px;
+  padding-right: 5px !important;
+  padding-left: 5px !important;
+  border: none !important;
+  width: 80px !important;
+}
