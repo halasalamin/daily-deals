@@ -1,0 +1,191 @@
+.addButtonContainer {
+  display: flex;
+  justify-content: flex-end;
+  height: 75px;
+  min-height: 75px;
+  align-items: center;
+}
+
+.tableHead {
+  height: 45px;
+}
+
+.cellCenter {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.headCells {
+  border: none;
+  border-bottom: none;
+  color: var(--table-header-color);
+  font-weight: var(--table-header-font-weight);
+  line-height: var(--table-header-line-height);
+  letter-spacing: var(--table-header-letter-spacing);
+  background-color: var(--table-header-bg);
+  text-transform: uppercase;
+  font-family: var(--font-family);
+  height: 45px;
+  font-size: 13px;
+}
+
+.rowCell {
+  color: var(--table-cell-color);
+  font-size: var(--table-cell-font-size);
+  padding: var(--table-cell-padding);
+  font-family: var(--font-family);
+}
+
+.smsWarning {
+  color: red;
+}
+
+.adormentsStyle {
+  font-size: 20px;
+}
+
+.searchBox {
+  margin-bottom: 15px;
+  width: 25%;
+}
+
+.searchBox input {
+  font-size: var(--font-regular);
+}
+
+.textFieldDialogStyle {
+  width: 70%;
+}
+
+.textFieldDialogStyle input,
+.textFieldDialogStyle label,
+.textFieldDialogStyle textarea {
+  font-size: var(--font-regular);
+}
+
+.createClinetModalContainer {
+  width: 500px;
+}
+
+.paperPadding {
+  padding: 20px;
+  display: flex;
+  flex-flow: column nowrap;
+  height: 100%;
+  max-height: 100%;
+}
+
+.pageContent {
+  display: flex;
+  max-height: calc(100% - 100px);
+  flex-flow: column nowrap;
+  width: 100%;
+  padding: 0 30px;
+}
+
+.headContainer {
+  display: flex;
+  align-items: center;
+}
+
+.selectField {
+  width: 70%;
+}
+
+.selectField label {
+  margin-top: -20px;
+}
+
+.inputRoot {
+  color: white;
+  font-family: var(--font-family);
+  font-size: 13px;
+  width: 300px;
+  display: flex;
+  flex-direction: row;
+  height: 36px;
+  border-radius: 4px;
+  padding: 0 15px;
+  background-color: rgba(170, 162, 170, 0.3);
+  max-width: 70%;
+  margin-right: 40px;
+}
+
+.searchAdorment {
+  margin-left: -10px;
+  margin-right: 12px;
+  color: #fff;
+}
+
+.searchIcon {
+  transform: scale(0.7);
+}
+
+.closeIconStyle {
+  color: white;
+  padding: 7px;
+}
+
+.closeIconStyle svg {
+  font-size: 24px;
+}
+
+.blueFilter {
+  fill: #1976d2;
+}
+
+.filterStyle {
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.rowFlex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.rowFlex div {
+  margin-right: 20px;
+}
+
+.rowFlex label {
+  margin-top: -5px;
+}
+
+.dialogPaper {
+  min-width: 750px;
+}
+
+.gridContainer {
+  min-width: 1000px;
+  overflow-x: auto;
+  height: calc(100% - 100px);
+  max-height: calc(100% - 100px);
+}
+
+.cancelStyle {
+  color: var(--secondary-color);
+  border: 1px solid var(--secondary-color);
+  height: var(--button-height);
+  font-size: var(--font-regular);
+  min-width: 150px;
+  background: var(--text-color-light);
+  font-weight: 500;
+  line-height: normal;
+  margin-right: 20px;
+  border-radius: var(--border-radius);
+  text-transform: capitalize;
+  margin: 20px;
+}
+
+.dialogHeader {
+  background-color: #f6f6f7;
+  padding-left: 20px;
+  border-bottom: 1px solid #d5d2d5;
+}
+
+.sortIconBase {
+  margin-right: 5px;
+}

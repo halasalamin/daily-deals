@@ -1,0 +1,14 @@
+.appContainer {
+  background-color: var(--color-bg-default) !important;
+  max-width: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  overflow: hidden;
+  padding: 0 20px 20px 20px;
+  width: 100%;
+  max-width: 100%;
+}
+
+.navBar {
+  background-color: var(--color-primary-main) !important;
+}

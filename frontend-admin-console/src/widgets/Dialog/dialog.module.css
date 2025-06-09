@@ -1,0 +1,74 @@
+.dialogPaper {
+  width: fit-content !important;
+  min-width: fit-content;
+  max-width: 90%;
+  border-radius: 8px;
+  margin: 0;
+  overflow: hidden;
+  min-height: 500px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+}
+
+.header {
+  height: 60px;
+  display: flex;
+  min-height: 60px;
+  align-items: center;
+  padding-left: 20px;
+  border-bottom: 1px solid #d5d2d5;
+  padding-right: 13px;
+  justify-content: space-between;
+  background-color: #f6f6f7;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: normal;
+}
+
+.closeBtn {
+  color: #888;
+}
+
+.content {
+  overflow-y: auto;
+  overflow-x: hidden;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  flex: 1;
+  padding: 10px 20px;
+  box-sizing: border-box;
+}
+
+.actions {
+  width: 100%;
+    display: flex;
+    padding: 10px 20px 20px 20px;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: #fff;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.cancelBtn {
+  background: none;
+  border: 1px solid #ccc;
+  padding: 8px 16px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.submitBtn {
+  background-color: #167f81;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  border-radius: 4px;
+}

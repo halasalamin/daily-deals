@@ -1,0 +1,98 @@
+:root {
+   --button-height: 40px;
+    /* 🎨 Palette */
+    --color-bg-default: #efeff2;
+    /* #f6f1f1  #f6f1f191 #efeff2 */
+    --color-bg-paper: #fff;
+
+    /* --color-primary-main: rgba(66, 26, 64, 1); */
+    --color-primary-dark: #29132e;
+    --color-primary-mid: #29132e;
+    --color-primary-light: #5c465d;
+    --color-primary-intermediate: #4b1c46;
+    --color-primary-selected: #5c465d;
+
+    --color-primary-main: #009688;
+    /*  */
+  
+    --color-secondary-main: rgba(240, 83, 71, 1);
+  
+    /* 🎨 Gradients */
+    --gradient-control: linear-gradient(to right, rgb(21, 17, 31), rgb(70, 28, 66));
+    --gradient-button: linear-gradient(to left, #421a40 100%, #29132e 0%);
+    --gradient-button-disabled: linear-gradient(to left, #776a7b 99%, #876e86 0%);
+    --gradient-theme-background: linear-gradient(rgb(58, 24, 58), rgb(22, 18, 32));
+    --color-pressed-white: rgba(75, 28, 70, 0.1);
+  
+    /* 🧾 Dialogs */
+    --dialog-border: 1px solid #d5d2d5;
+    --dialog-shadow: 0 2px 11px 0 rgba(0, 0, 0, 0.15);
+    --dialog-bg: #ffffff;
+    --dialog-border-radius: 8px;
+    --dialog-header-border: 1px solid #d5d2d5;
+    --dialog-header-bg: #f6f6f7;
+    --dialog-title-color: #29132e;
+    --dialog-title-font-size: 18px;
+    --dialog-title-font-family: "RobotoMedium", sans-serif;
+    --dialog-title-font-weight: 500;
+  
+    /* 🧾 Tables */
+    --table-bg: #fff;
+    --table-header-color: #79797d;
+    --table-header-font-size: 13px;
+    --table-header-font-weight: bold;
+    --table-header-bg: #efeff2;
+    --table-cell-color: rgb(84, 89, 100);
+    --table-cell-font-size: 14px;
+    --table-cell-padding: 3px 16px;
+  
+    /* 📋 Menu */
+    --menu-nav-color: #fff;
+    --menu-nav-bg: #29132e;
+    --menu-list-bg: #5c465d;
+    --menu-list-border-color: rgb(240, 83, 71);
+    --menu-list-border-thickness: 3px;
+    --menu-icon-stroke: #fff;
+  
+    /* 🧭 Header */
+    --header-bg: #29132e;
+    --header-color: #fff;
+    --header-border-left: rgb(236, 235, 239);
+    --header-title-color: #fff;
+  
+    /* 🔍 Search Component */
+    --search-bg: #29132e;
+    --search-autocomplete-group-ul: #331e38;
+    --search-color: #fff;
+    --search-font-weight: bold;
+    --search-font-size: 17px;
+    --search-input-font-family: Roboto, sans-serif;
+    --search-input-color: #fff;
+    --search-input-font-size: 13px;
+    --search-input-bg: rgba(170, 162, 170, 0.3);
+  
+    /* 📃 Header Units List */
+    --units-list-bg: #331e38;
+    --units-list-item-border: 1px solid rgb(87, 69, 92);
+    --units-list-item-font-size: 1em;
+    --units-list-item-bg: rgba(41, 19, 46, 0);
+    --units-list-selected-bg: #523b53;
+    --units-list-selected-font-weight: bold;
+  
+    /* 💬 Tooltip */
+    --tooltip-bg: #fff;
+    --tooltip-color: rgba(0, 0, 0, 0.87);
+    --tooltip-font-size: 12px;
+    --tooltip-font-weight: 600;
+    --tooltip-arrow-color: #fff;
+    --tooltip-arrow-shadow: drop-shadow(0px 6px 7px #000);
+  
+    /* 🔐 Login */
+    --login-bg: linear-gradient(rgb(58, 24, 58), rgb(22, 18, 32));
+    --login-welcome-color: #fff;
+    --login-input-color: white;
+    --login-input-bg: #ffffff1a;
+    --login-submit-bg: #f05146;
+    --login-submit-hover-bg: #f05146cc;
+  }
+  

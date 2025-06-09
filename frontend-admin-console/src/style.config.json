@@ -1,0 +1,144 @@
+{
+  "palette": {
+    "background": {
+      "paper": "#fff",
+      "default": "#efeff2"
+    },
+    "primary": {
+      "main": "rgba(66, 26, 64, 1)",
+      "dark": "#29132e",
+      "mid": "#29132e",
+      "light": "#5c465d",
+      "intermidiate": "#4b1c46",
+      "selected": "#5c465d"
+    },
+    "secondary": {
+      "main": "rgba(240, 83, 71, 1)"
+    },
+    "contrastThreshold": 3,
+    "tonalOffset": 0.2
+  },
+  "gradiants": {
+    "control": "linear-gradient(to right, rgb(21, 17, 31) 0%, rgb(70, 28, 66))",
+    "button": "linear-gradient(to left, #421a40 100%, #29132e 0%)",
+    "disabledButton": "linear-gradient(to left, #776a7b 99%, #876e86 0%)",
+    "themeBackground": "linear-gradient(rgb(58, 24, 58), rgb(22, 18, 32))",
+    "pressedWhite": "rgba(75, 28, 70, 0.1)"
+  },
+  "dialogs": {
+    "border": "1px solid #d5d2d5",
+    "paper":{
+      "boxShadow": "0 2px 11px 0 rgba(0, 0, 0, 0.15)",
+      "border": "solid 1px #d5d2d5",
+      "backgroundColor": "#ffffff",
+      "borderRadius": "8px"
+    },
+    "header": {
+      "borderBottom": "1px solid #d5d2d5",
+      "backgroundColor": "#f6f6f7"
+    },
+    "title": {
+      "color": "#29132e",
+      "borderBottom": "1px solid #d5d2d5",
+      "backgroundColor": "#f6f6f7",
+      "fontSize": 18,
+      "fontFamily": "RobotoMedium",
+      "fontWeight": 500,
+      "lineHeight": "normal",
+      "letterSpacing": "normal"
+    }
+  },
+  "tables": {
+    "background": "#fff",
+    "headerCell": {
+      "color": "#79797d",
+      "fontSize": 13,
+      "fontWeight": "bold",
+      "lineHeight": "normal",
+      "borderBottom": "none",
+      "letterSpacing": "normal",
+      "textTransform": "uppercase",
+      "backgroundColor": "#efeff2"
+    },
+    "tableCell": {
+      "color": "rgb(84, 89, 100)",
+      "fontSize": "14px",
+      "padding": "3px 16px"
+    }
+  },
+  "menu": {
+    "nav": {
+      "color": "#fff",
+      "backgroundColor": "#29132e"
+    },
+    "listItem": {
+      "backgroundColor": "#5c465d",
+      "borderLeft": {
+        "color": "rgb(240, 83, 71)",
+        "borderThickness": "3px"
+      } 
+    },
+    "icon": {
+      "stroke": "#fff"
+    }
+  },
+  "header":{
+    "backgroundColor": "#29132e",
+    "color": "#fff",
+    "borderLeft": "rgb(236, 235, 239)",
+    "title": {
+      "color": "#fff"
+    },
+    "searchComponent": {
+      "backgroundColor": "#29132e",
+      "autoCompleteGroupUl": "#331e38",
+      "color": "#fff",
+      "fontWeight": "bold",
+      "fontSize": "17px",
+      "inputRoot":{
+        "fontFamily": "Roboto",
+        "color": "#fff",
+        "fontSize": "13px",
+        "backgroundColor": "rgba(170, 162, 170, 0.3)"
+      }
+    },
+    "unitsList": {
+      "backgroundColor": "#331e38",
+      "item":{
+        "borderTop": "1px rgb(87, 69, 92) solid",
+        "fontSize": "1em",
+        "background": "rgba(41, 19, 46, 0)"
+      },
+      "selectedItem": {
+        "backgroundColor": "#523b53",
+        "fontWeight": "bold"
+      }
+    }
+  },
+  "tooltip": {
+    "box": {
+      "backgroundColor": "#fff",
+      "color": "rgba(0, 0, 0, 0.87)",
+      "fontSize": 12,
+      "fontWeight": 600
+    },
+    "arrow": {
+      "color": "#fff",
+      "filter": "drop-shadow( 0px 6px 7px #000 )"
+    }
+  },
+  "login": {
+    "background" : "linear-gradient(rgb(58, 24, 58), rgb(22, 18, 32))",
+    "welcomeMessage": { 
+      "color": "rgb(255, 255, 255)"
+    },
+    "input": {
+      "color": "white",
+      "background": "#ffffff1a"
+    },
+    "submitButton": {
+      "backgroundColor": "#f05146",
+      "hover": "#f05146cc"
+    }
+  }
+}
