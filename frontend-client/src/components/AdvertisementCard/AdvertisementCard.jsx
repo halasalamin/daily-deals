@@ -38,7 +38,7 @@ const AdvertisementCard = ({ ad }) => {
           fontWeight: "700",
           padding: "10px 18px",
           borderRadius: "12px",
-          boxShadow: "0 0 8px #167f81",
+          boxShadow: "0 0 1px #167f81",
           minWidth: "160px",
           textAlign: "center",
           userSelect: "none",

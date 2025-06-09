@@ -49,16 +49,16 @@ const AdvertisementSlider = () => {
 
   return (
     <div className="advertisement-slider">
-      <button onClick={prevAd} className="slider-arrow left">
-        <ChevronLeftOutlinedIcon style={{ fontSize: "40px" }} />
+      <button onClick={prevAd} className="slider-arrow left" style={{borderRadius: "50%"}}>
+        <ChevronLeftOutlinedIcon style={{ fontSize: "40px", color: "gray" }} />
       </button>
 
       <div className={`ad-container ${fade ? "fade" : ""}`}>
         <AdvertisementCard ad={ads[currentAd]} />
       </div>
 
-      <button onClick={nextAd} className="slider-arrow right">
-        <ChevronRightOutlinedIcon style={{ fontSize: "40px" }} />
+      <button onClick={nextAd} className="slider-arrow right" style={{borderRadius: "50%"}}>
+        <ChevronRightOutlinedIcon style={{ fontSize: "40px", color: "gray" }} />
       </button>
     </div>
   );
